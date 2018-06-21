@@ -4,6 +4,7 @@
 // Global CSS
 @import "global.scss";
 // Components
+@import "about.scss";
 @import "navbar.scss";
 @import "masthead.scss";
 @import "services.scss";
@@ -12,3 +13,5 @@
 @import "team.scss";
 @import "contact.scss";
 @import "footer.scss";
+// Hovers
+@import "hover/hover.scss";

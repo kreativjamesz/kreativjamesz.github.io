@@ -1,0 +1,32 @@
+
+@import "options";
+@import "mixins";
+@import "hacks";
+
+@import "effects/bounce-in";
+@if $includeClasses {
+	.#{$nameSpace}-bounce-in {
+		@include bounce-in();
+	}
+}
+
+@import "effects/grow";
+@if $includeClasses {
+	.#{$nameSpace}-grow {
+		@include grow();
+	}
+}
+
+@import "effects/ripple-out";
+@if $includeClasses {
+	.#{$nameSpace}-ripple-out {
+		@include ripple-out();
+	}
+}
+
+@import "effects/rotate";
+@if $includeClasses {
+	.#{$nameSpace}-rotate {
+		@include rotate();
+	}
+}
