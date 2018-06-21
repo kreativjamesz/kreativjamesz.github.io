@@ -1,1 +1,6 @@
 node_modules
+vendor
+.travis.yml
+gulpfile.js
+package-lock.json
+package.json
